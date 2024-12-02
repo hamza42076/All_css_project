@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-image:url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Image-Disney_Concert_Hall_by_Carol_Highsmith_edit-2.jpg/800px-Image-Disney_Concert_Hall_by_Carol_Highsmith_edit-2.jpg );
+    background-repeat:no-repeat ;
+    background-size: cover;
+}
+#navbar{
+    position: relative;
+    height: 70px;
+    width: 100%;
+    padding: 0 80px;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#navbar #links{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% ,-50%);
+}
+#navbar i{
+    height: 45px;
+    width: 45px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#links a{
+    margin-left: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+#navbar h2{
+    height: 45px;
+    width: 45px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#mid-part{ 
+    padding-left: 80px;
+    padding-top: 30px;
+    width: 42%;
+    height: 53%;
+    /* background-color: red; */
+    margin-top: 40px;
+    margin-left: 80px;
+    color: white;
+}
+#mid-part h1{
+    font-size: 80px;
+}
+#sentence{
+    display: flex;
+    gap: 20px;
+    margin-top: 40px;
+    opacity: .5;
+
+}
+#sentence h5{
+    letter-spacing: 2px;
+    line-height: 14px;
+    font-weight:lighter;
+    
+}
+#footer{
+    width: 70%;
+    height: 25%;
+    background-color: white;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    padding: 50px 40px;
+    justify-content: space-between;
+    border-radius: 20px;
+    border: 2px solid black;
+
+}
+#footer .heading1 p{
+    margin-top: 10px;
+    opacity: 0.5;
+}
+#footer .heading1 pre{
+    margin-top: 10px;
+    opacity: 0.5;
+}
+#icon{
+    font-size: 30px;
+    height: 40px;
+    width: 50px;
+    background-color:black;
+    position: absolute;
+    right: 0;
+    top: -40px;
+    right: -42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+    

@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-image: url(https://images.unsplash.com/photo-1499678329028-101435549a4e?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+}
+#navbar{
+    height: 10%;
+    width: 100%;
+    /* background-color: black; */
+    display: flex;
+    position: absolute;
+    z-index: 9999;
+}
+#navleft{
+    width: 50%;
+    height: 100%;
+    padding: 20px 40px;
+}
+#navright{
+    width: 50%;
+    height: 100%;
+    /* background-color: yellow; */
+    display: flex; 
+    justify-content: end;
+    align-items: center;
+    gap: 30px;
+    margin-right: 20px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 20px;
+
+}
+a:hover{
+    background-color: red;
+    border-radius: 80%;
+}
+#lefthand{
+    height: 100%;
+    width: 30%;
+    background-color: rgba(0, 0, 0, 0.259);
+    position: relative; 
+
+   
+.left-text{
+    position: relative;
+    top: 35%;
+    left: 20%;
+    transform: translate(-50% -50%);
+    margin-bottom: 30px;
+}
+}
+.left-text h6{
+    opacity: 0.5;
+    font-weight :200 ;
+}
+#lefthand .left-text:nth-child(2) h4 {
+    font-size: 40px;
+    white-space: nowrap;
+
+}
+#righthand{
+    height: 100%;
+    width: 70%;
+    position: relative;
+    
+}
+#right-text1{
+    position: absolute;
+    top: 40%;
+    right: 0;
+    transform: translate(-50% -50% );
+    margin-right: 80px;
+    font-size: 20px; 
+}
+#right-text2{
+    margin-top: 2%;
+    font-size: 100px;
+    margin-right: 60px;
+    position: absolute;
+    top: 40%;
+    right: 0;
+    transform: translate(-50% -50% );
+}
+#search input{
+    height: 30px;
+    border: none;
+    background-color:transparent;
+    position: absolute;
+    top: 65%;
+    right: 0;
+    transform: translate(-50% -50% );
+    margin-right: 80px;
+    font-size: 20px;
+    margin-right: 5%;
+    /* border: 2px solid white; */
+    color: white;
+       display: inline-block;
+    border-bottom: 1px solid white;
+}
+#search :placeholder-shown{
+    color: white;
+}
+@media(max-width:500px){
+    #right-text2 h4{
+        color:black ;
+        font-size: 50px;
+    }
+}

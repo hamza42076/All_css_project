@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+#left{
+    height: 100%;
+    width: 50%;
+    background-image: url(https://plus.unsplash.com/premium_photo-1669050700606-bf8f42f5a76d?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    align-items: center;
+}
+#right{
+    height: 100%;
+    width: 50%;
+    background-image: url(https://media.istockphoto.com/id/880133908/photo/romantic-holidays-honeymoon-affectionate-couple-on-beach-on-swing.jpg?s=2048x2048&w=is&k=20&c=uykX8jCMuWYI4nUWORmwGznoGaU5ipmKn5xS3crFwco=);
+    align-items: center;
+}
+#overlay1{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.479);
+}
+#text1{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    width: 100%;
+    
+}
+#text1 button{
+    margin-top: 10px;
+}
+
+button{
+    background-color: blue;
+    border-radius: 80px;
+    height: 40px;
+    width: 100px;
+    background-color: transparent;
+    border: 2px solid yellow;
+    
+}
+button:hover{
+    background-color: azure;
+    color:black ;
+ 
+}
+#overlay2{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(207, 184, 184, 0.651);
+}
+#text2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+     font-size: 20px;
+     text-align: center;
+     color: black ;
+     
+     width: 100%;
+ }
+ #text2 button{
+    margin-top: 10px;
+}
